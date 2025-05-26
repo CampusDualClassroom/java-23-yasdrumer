@@ -13,8 +13,13 @@ public class Doctor extends Person {
 		return this.specialization;
 	}
 
+
 	public void setSpecialization(String specialization) {
 		this.specialization = specialization;
+	}
+
+	public void getDetails() {
+		System.out.println("Nombre completo: " + name + " " + surname + ", Especializacion: " + specialization);
 	}
 
 }
